@@ -1,0 +1,14 @@
+body{
+    background-image: url("lisa.jpg");
+    background-position: center;
+    background-size: cover;
+}
+canvas{
+    animation-duration: 4s;
+    animation-name: person;
+    animation-iteration-count: infinite;
+}
+@keyframes person{
+    from{box-shadow: 1px 1px 38px rgb(0, 0, 0);}
+    to{box-shadow: 1px 1px 38px rgb(232, 166, 245);}
+}
